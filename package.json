@@ -1,0 +1,25 @@
+{
+  "name": "@reeve/connectors",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "@composio/core": "^0.25.0",
+    "@modelcontextprotocol/sdk": "^1.32.1",
+    "zod": "^4.6.7"
+  },
+  "description": "Connectors: Composio toolkits and MCP servers the broker acts through, plus CSV and app record readers.",
+  "repository": "github:Reeve-Agents/reeve-connectors",
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
